@@ -16,7 +16,7 @@ export const App = () => {
 
   return (
     <div>
-      <header>Dogアプリ</header>
+      <header className="App-header">Dogアプリ</header>
       <p>犬の画像を表示するサイトです</p>
       <img src={dogUrl} />
       <button onClick={onChange}>変更</button>
